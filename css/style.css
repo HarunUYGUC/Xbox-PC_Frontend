@@ -8,7 +8,12 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
-/* left-bar */
+a {
+    text-decoration: none;
+    color: var(--light);
+}
+
+/* left-bar opening */
 .left-bar {
     background-color: var(--secondary);
     padding: 10px;
@@ -69,8 +74,8 @@ body {
     font-size: 15px;
 }
 
-/* home-bar */
-.home-bar {
+/* home-bar search */
+.opening {
     background-image: linear-gradient(180deg, #cc4400, var(--primary));
 }
 
@@ -111,4 +116,37 @@ body {
 .form-control::placeholder {
     color: var(--light);
     opacity: 1; /* Bazı tarayıcılarda silik görünmesi için gerekli. */
+}
+
+/* home-bar opening */
+.animation-img-text {
+    position: relative;
+    overflow: hidden;
+}
+
+.animation-img {
+    border-radius: 10px;
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease-in-out;
+}
+
+/* Hover olunca resmi aşağıya kaydır */
+.animation-img-text:hover .animation-img {
+    transform: translateY(20px);
+}
+
+.animation-text {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    color: var(--light);
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 2;
 }
