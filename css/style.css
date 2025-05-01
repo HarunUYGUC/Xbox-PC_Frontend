@@ -58,6 +58,17 @@ body {
     cursor: pointer;
 }
 
+/* left-bar center */
+.nav-icon {
+    color: var(--light);
+    font-size: 30px;
+}
+
+.nav-text {
+    color: var(--light);
+    font-size: 15px;
+}
+
 /* home-bar */
 .home-bar {
     background-image: linear-gradient(180deg, #cc4400, var(--primary));
