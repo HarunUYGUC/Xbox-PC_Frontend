@@ -17,6 +17,10 @@ a {
 .left-bar {
     background-color: var(--secondary);
     padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh
 }
 
 .profile-picture {
@@ -78,6 +82,17 @@ a {
 /* home-bar search */
 .opening {
     background-image: linear-gradient(180deg, #cc4400, var(--primary));
+}
+
+.feature {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    padding-top: 5px;
+}
+
+#goBackBtn {
+    cursor: pointer;
 }
 
 .fa-square-caret-left {
