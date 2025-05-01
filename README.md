@@ -1,3 +1,3 @@
 https://xbox-pc.netlify.app/
 
-![Ana Sayfa](https://github.com/user-attachments/assets/37b0ca52-32af-43e8-a2f3-003df4f98198)
+![Ana Sayfa](https://github.com/user-attachments/assets/6c1a9abb-e2c6-4ba8-ae80-c8eee43cb3d3)
