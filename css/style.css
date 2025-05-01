@@ -2,6 +2,7 @@
     --primary: #393E46;
     --secondary: #222831;
     --light: #F8FAFC;
+    --light-primary: #67707e;
 }
 
 body {
@@ -110,6 +111,10 @@ a {
 .fa-bag-shopping:hover {
     animation: shake-top 0.6s ease-in-out;
     transform-origin: bottom center;
+}
+
+.navigation:hover {
+    background-color: var(--light-primary);
 }
 
 /* left-bar center */
