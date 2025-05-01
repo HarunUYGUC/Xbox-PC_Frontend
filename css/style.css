@@ -68,6 +68,50 @@ a {
     cursor: pointer;
 }
 
+@keyframes shake-horizontal {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(3px); }
+    100% { transform: translateX(0); }
+}
+
+.fa-house:hover {
+    animation: shake-horizontal 0.6s ease-in-out;
+}
+
+@keyframes shake-vertical {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(3px); }
+    100% { transform: translateY(0); }
+}
+
+.fa-gamepad:hover {
+    animation: shake-vertical 0.6s ease-in-out;
+}
+
+@keyframes shake-right {
+    0% { transform: rotate(0); }
+    33% { transform: rotate(5deg); }
+    66% { transform: rotate(-5deg); }
+    100% { transform: rotate(0); }
+}
+
+.fa-book:hover {
+    animation: shake-right 0.6s ease-in-out;
+    transform-origin: left center;;
+}
+
+@keyframes shake-top {
+    0% { transform: rotate(0); }
+    33% { transform: rotate(5deg); }
+    66% { transform: rotate(-5deg); }
+    100% { transform: rotate(0); }
+}
+
+.fa-bag-shopping:hover {
+    animation: shake-top 0.6s ease-in-out;
+    transform-origin: bottom center;
+}
+
 /* left-bar center */
 .nav-icon {
     color: var(--light);
