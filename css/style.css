@@ -115,12 +115,14 @@ a {
 
 .navigation:hover {
     background-color: var(--light-primary);
+    border-radius: 10px;
 }
 
 /* left-bar center */
 .nav-icon {
     color: var(--light);
     font-size: 30px;
+    padding-left: 8px;
 }
 
 .nav-text {
