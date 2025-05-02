@@ -153,6 +153,11 @@ a {
     /* position: relative; */
 }
 
+.fa-chevron-down {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
 .dropdown-toggle::after {
     display: none !important; /* Hazır gelen oku değiştirdim. */
     /* position: absolute;
@@ -211,9 +216,37 @@ a {
     font-weight: bold;
 }
 
-.fa-chevron-down {
-    font-size: 14px;
+.download-content {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px 20px;
+}
+
+.download-content:hover {
+    background-color: var(--primary);
+    border-radius: 10px;
+}
+
+.fa-arrow-down {
+    color: var(--light);
+    font-size: 20px;
     opacity: 0.7;
+}
+
+.download-text {
+    color: var(--light);
+}
+
+.shiny {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.not-shiny {
+    white-space: nowrap; /* yönet kelimesinin alt satıra geçmesini engeller */
+    opacity: 0.7;
+    font-size: 12px;
 }
 
 /* home-bar search */
