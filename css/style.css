@@ -24,11 +24,21 @@ a {
     height: 100vh
 }
 
+.profile-text:hover {
+    background-color: var(--primary);
+    border-radius: 5px;
+}
+
 .profile-picture {
     width: 45px;
     height: 40px;
     border-radius: 50%;
     margin: 2px;
+}
+
+.profile-pic:hover {
+    background-color: var(--light-primary);
+    border-radius: 5px;
 }
 
 .profile-name {
@@ -47,6 +57,11 @@ a {
     font-weight: bold;
     width: 65px;
     letter-spacing: 1px;
+}
+
+.notification-icon:hover {
+    background-color: var(--light-primary);
+    border-radius: 5px;
 }
 
 @keyframes shake-bottom {
@@ -144,6 +159,56 @@ a {
     right: 15px;
     top: 50%;
     transform: translateY(-50%); */
+}
+
+.dropdown-menu {
+    background-color: var(--light-primary);
+}
+
+.dropdown-menu .dropdown-item {
+    color: var(--light);
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: var(--primary);
+}
+
+.current-content:hover {
+    background-color: var(--light-primary);
+    border-radius: 5px;
+}
+
+.current-picture-wrapper {
+    position: relative;
+    width: 70px;
+    height: 70px;
+}
+
+.current-picture {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--light);
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.current-content:hover .play-icon {
+    opacity: 1;
+}
+
+.current-picture-name {
+    color: var(--light);
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .fa-chevron-down {
