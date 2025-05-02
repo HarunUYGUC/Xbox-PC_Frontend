@@ -90,7 +90,7 @@ a {
     100% { transform: translateX(0); }
 }
 
-.fa-house:hover {
+#house:hover .fa-house {
     animation: shake-horizontal 0.6s ease-in-out;
 }
 
@@ -100,7 +100,7 @@ a {
     100% { transform: translateY(0); }
 }
 
-.fa-gamepad:hover {
+#gamepad:hover .fa-gamepad {
     animation: shake-vertical 0.6s ease-in-out;
 }
 
@@ -111,7 +111,7 @@ a {
     100% { transform: rotate(0); }
 }
 
-.fa-book:hover {
+#book:hover .fa-book {
     animation: shake-right 0.6s ease-in-out;
     transform-origin: left center;;
 }
@@ -123,7 +123,7 @@ a {
     100% { transform: rotate(0); }
 }
 
-.fa-bag-shopping:hover {
+#bag-shopping:hover .fa-bag-shopping {
     animation: shake-top 0.6s ease-in-out;
     transform-origin: bottom center;
 }
