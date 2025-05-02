@@ -250,8 +250,8 @@ a {
 }
 
 /* home-bar search */
-.opening {
-    background-image: linear-gradient(180deg, #cc4400, var(--primary));
+.home-bar {
+    background-image: linear-gradient(180deg, #cc4400, var(--primary), #cc4400);
 }
 
 .feature {
@@ -335,4 +335,17 @@ a {
     padding: 5px 10px;
     border-radius: 5px;
     z-index: 2;
+}
+
+/* after opening */
+.header-shiny {
+    font-weight: bold;
+    font-size: 25px;
+    color: var(--light);
+}
+
+.header-not-shiny {
+    font-weight: normal;
+    font-size: 15px;
+    color: var(--light);
 }
