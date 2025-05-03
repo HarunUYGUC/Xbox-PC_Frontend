@@ -9,3 +9,4 @@ https://xbox-pc.netlify.app/
 ![Responsive Home Page End 1](https://github.com/user-attachments/assets/affa627a-80dd-4bed-ba75-492ea4578575)
 ![Responsive Home Page Start 2](https://github.com/user-attachments/assets/6af0d91d-5e13-437b-bb29-ab350fc2bb8c)
 ![Responsive Home Page End 2](https://github.com/user-attachments/assets/0d50fbc4-2e86-48db-891c-c79a586c8cbf)
+![Library](https://github.com/user-attachments/assets/a6d20cc9-b6b9-4426-ad2e-becb4619def0)
