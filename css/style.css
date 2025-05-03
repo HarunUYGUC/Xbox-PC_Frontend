@@ -3,6 +3,7 @@
     --secondary: #222831;
     --light: #F8FAFC;
     --light-primary: #67707e;
+    --light-secondary: #2a313c;
 }
 
 body {
@@ -432,4 +433,59 @@ a {
 .carousel-control-prev,
 .carousel-control-next {
     width: 5%; /* Tıklama alanını daralt veya genişlet. */
+}
+
+/* library */
+.home-bar-2 {
+    background-color: var(--light-secondary);
+}
+
+.main-header, .sup-header {
+    color: var(--light);
+    font-weight: bold;
+}
+
+.download-container-2 {
+    background-color: var(--light-primary);
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid var(--light);
+}
+
+.download-container-2:hover {
+    background-color: var(--primary);
+}
+
+.download-text-2 {
+    font-size: 14px;
+    color: var(--light);
+}
+
+.download-icon-2 {
+    color: var(--light);
+}
+
+.toggle-carousel-btn {
+    background-color: transparent;
+    border: none;
+    color: var(--light);
+    font-size: 1.5rem;
+}
+
+.toggle-carousel-btn:focus {
+    box-shadow: none;  /* Tıklanınca mavi kenar çizgisi olmasın. */
+}
+
+.toggle-carousel-btn:hover {
+    color: var(--primary);
+}
+
+.toggle-icon.rotate {
+    transform: rotate(180deg);
+}
+
+#gamePassSection .card-body {
+    background-color: var(--secondary);
+    border-radius: 10px;
+    padding: 20px;
 }
