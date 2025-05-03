@@ -7,7 +7,7 @@ https://xbox-pc.netlify.app/
 ![Menu Icon Animation](https://github.com/user-attachments/assets/6dd72044-08b1-4418-9fd6-66226426800c)
 ![Responsive Home Page Start 1](https://github.com/user-attachments/assets/d0cfd2f6-09c7-4bbc-b769-3beaa4c68452)
 ![Responsive Home Page End 1](https://github.com/user-attachments/assets/affa627a-80dd-4bed-ba75-492ea4578575)
-![Responsive Home Page Start 2](https://github.com/user-attachments/assets/6af0d91d-5e13-437b-bb29-ab350fc2bb8c)
+![Responsive Home Page Start](https://github.com/user-attachments/assets/46f7a2bb-a6a1-4cce-9c96-9502aa4fa04d)
 ![Responsive Home Page End 2](https://github.com/user-attachments/assets/0d50fbc4-2e86-48db-891c-c79a586c8cbf)
 ![Library](https://github.com/user-attachments/assets/a6d20cc9-b6b9-4426-ad2e-becb4619def0)
 ![Library-2](https://github.com/user-attachments/assets/f826e0f5-097f-4097-b081-f12eaf04debd)
