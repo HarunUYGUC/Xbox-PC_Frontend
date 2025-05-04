@@ -279,6 +279,7 @@
     </div>
     <script>
         // Fare ile üzerine gelindiğinde ikon üzerinde yazı göster.
+        // Bunsuz da çalışıyor diğerlerinde.
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
         tooltipTriggerList.forEach(el => new bootstrap.Tooltip(el));
       </script>
@@ -287,21 +288,7 @@
         document.getElementById("goBackBtn").addEventListener("click", function() {
             window.history.back();
         });
-    </script> 
-    <script>
-        // İkon yönünü değiştir.
-        const toggleBtn = document.querySelector('.toggle-carousel-btn');
-        const toggleIcon = toggleBtn.querySelector('.toggle-icon');
-        const collapseElement = document.getElementById('gamePassSection');
-
-        collapseElement.addEventListener('show.bs.collapse', () => {
-            toggleIcon.classList.remove('rotate');
-        });
-
-        collapseElement.addEventListener('hide.bs.collapse', () => {
-            toggleIcon.classList.add('rotate');
-        });
-    </script>   
+    </script>  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>
