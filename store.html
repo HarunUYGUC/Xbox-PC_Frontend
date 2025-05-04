@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Special+Gothic&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Store</title>
+</head>
+<body>
+    <div class="row g-0">
+        <div class="col-2 left-bar">
+            <div class="d-flex align-items-center px-2">
+                <div class="col-3 profile-pic px-1">
+                    <img class="profile-picture" src="img/lies-of-p.jpeg" alt="lies-of-p">
+                </div>
+                <div class="profile-text col-7 px-1 pb-2">
+                    <span class="profile-name">RekNNa</span>
+                    <div class="profile-level">ULTIMATE</div>
+                </div>
+                <div class="notification-icon col-2 mx-2 p-1 ps-2">
+                    <i class="fa-regular fa-bell"></i>
+                </div>
+            </div>
+            <div class="ps-2 m-2">
+                <div id="house" class="navigation my-3 d-flex align-items-center">
+                    <div class="col-3 nav-icon">
+                        <a href="index.html"><i class="fa-solid fa-house"></i></a>
+                    </div>
+                    <div class="col-9 nav-text">
+                        <a href="index.html">Giriş</a>
+                    </div>
+                </div>
+                <div id="gamepad" class="navigation my-3 d-flex align-items-center">
+                    <div class="col-3 nav-icon">
+                        <a href="game-pass.html"><i class="fa-solid fa-gamepad"></i></a>
+                    </div>
+                    <div class="col-9 nav-text">
+                        <a href="game-pass.html">Game Pass</a>
+                    </div>
+                </div>
+                <div id="book" class="navigation my-3 d-flex align-items-center">
+                    <div class="col-3 nav-icon">
+                        <a href="library.html"><i class="fa-solid fa-book"></i></a>
+                    </div>
+                    <div class="col-9 nav-text">
+                        <a href="library.html">Kitaplığım</a>
+                    </div>
+                </div>
+                <div id="bag-shopping" class="navigation my-3 d-flex align-items-center">
+                    <div class="col-3 nav-icon">
+                        <a href="store.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                    </div>
+                    <div class="col-9 nav-text">
+                        <a href="store.html">Store</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown mx-3">
+                <button class="btn btn-secondary dropdown-toggle d-flex justify-content-between align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    En Son
+                    <i class="fa-solid fa-chevron-down ms-auto"></i>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">En Son</a></li>
+                  <li><a class="dropdown-item" href="#">Yüklü (2)</a></li>
+                </ul>
+            </div>
+            <div class="current-content mx-2 mt-1 d-flex align-items-center">
+                <div class="col-4 ms-3 my-1">
+                    <div class="current-picture-wrapper position-relative">
+                        <img class="current-picture" src="img/resident-evil-2.jpeg" alt="resident-evil-2">
+                        <i class="fa-solid fa-play play-icon"></i>
+                    </div>
+                </div>                
+                <div class="col-8 ps-2">
+                    <span class="current-picture-name">Resident Evil 2</span>
+                </div>
+            </div>
+            <div class="current-content mx-2 mt-1 d-flex align-items-center">
+                <div class="col-4 ms-3 my-1">
+                    <div class="current-picture-wrapper position-relative">
+                        <img class="current-picture" src="img/star-wars-jedi-fallen-order.jpg" alt="star-wars-jedi-fallen-order">
+                        <i class="fa-solid fa-play play-icon"></i>
+                    </div>
+                </div>                
+                <div class="col-8 ps-2">
+                    <span class="current-picture-name">STAR WARS Jedi: Fallen Order</span>
+                </div>
+            </div>
+            <div class="download-content mx-3 my-2  d-flex align-items-center">
+                <div class="col-3">
+                    <div class="download-icon">
+                        <i class="fa-solid fa-arrow-down p-2 me-4"></i>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="download-text">
+                        <p class="shiny pt-3">Sırayı Göster
+                            <br>
+                            <span class="not-shiny">Son yüklemeleri yönet</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 home-bar-2">
+            <div class="opening pt-4">
+                <div class="d-flex align-items-center feature">
+                    <div class="left-icon px-3">
+                        <i class="fa-regular fa-square-caret-left" id="goBackBtn"></i>
+                    </div>
+                    <div class="flex-grow-1 d-flex justify-content-center">
+                        <div class="searching d-flex align-items-center px-3">
+                            <i class="fa-solid fa-magnifying-glass me-2"></i>
+                            <input type="text" class="form-control form-control-sm" placeholder="Oyunları, eklentileri ve daha fazlasını arayın">
+                        </div>
+                    </div>
+                </div>
+            <div class="after-opening game-pass mt-4 mb-3 mx-5">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h2 class="main-header mb-4">Game Pass</h2>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="sup-header">Neler oluyor?</h3>
+                </div>
+                <div class="mt-5">
+                    <h3 class="sup-header">En son eklenenler</h3>
+                </div>
+                <div class="card card-body">
+                    <div id="gamePassCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <!-- Carousel inner -->
+                        <div class="carousel-inner">
+                            <!-- 1. Sayfa -->
+                            <div class="carousel-item mt-2 active mt-2">
+                                <div class="row g-3 justify-content-center">
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                                    <div class="game-pass-container p-0 pb-4">
+                                        <div class="game-pass-img-wrapper">
+                                            <img class="game-pass-img" src="img/call-of-duty-modern-warfare-II.jpg" alt="">
+                                        </div>
+                                        <div class="game-pass-text px-2 pt-1">Call of Duty: Modern Warfare II</div>
+                                        <div class="game-pass-publisher px-2">Activision Publishing Inc.</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                                    <div class="game-pass-container p-0 pb-4">
+                                        <div class="game-pass-img-wrapper">
+                                            <img class="game-pass-img" src="img/anno-1800.jpeg" alt="">
+                                        </div>
+                                        <div class="game-pass-text px-2 pt-1">Anno 1800</div>
+                                        <div class="game-pass-publisher px-2">UBISOFT</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                                    <div class="game-pass-container p-0 pb-4">
+                                        <div class="game-pass-img-wrapper">
+                                            <img class="game-pass-img" src="img/far-cry-4.jpeg" alt="">
+                                        </div>
+                                        <div class="game-pass-text px-2 pt-1">Far Cry 4</div>
+                                        <div class="game-pass-publisher px-2">Ubisoft</div>
+                                    </div>
+                                </div>                              
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                                    <div class="game-pass-container p-0 pb-4">
+                                        <div class="game-pass-img-wrapper">
+                                            <img class="game-pass-img" src="img/towerborne.jpg" alt="">
+                                        </div>
+                                        <div class="game-pass-text px-2 pt-1">Towerborne</div>
+                                        <div class="game-pass-publisher px-2">Xbox Game Studios</div>
+                                    </div>
+                                </div>                              
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                                    <div class="game-pass-container p-0 pb-4">
+                                        <div class="game-pass-img-wrapper">
+                                            <img class="game-pass-img" src="img/clair-obscur-expedition-33.jpeg" alt="">
+                                        </div>
+                                        <div class="game-pass-text px-2 pt-1">Clair Obscur: Expedition 33</div>
+                                        <div class="game-pass-publisher px-2">Kepler Interactive</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                                    <div class="game-pass-container p-0 pb-4">
+                                        <div class="game-pass-img-wrapper">
+                                            <img class="game-pass-img" src="img/elder-scrolls-oblivion-rem.png" alt="">
+                                        </div>
+                                        <div class="game-pass-text px-2 pt-1">The Elder Scrolls IV: Oblivion Remastered</div>
+                                        <div class="game-pass-publisher px-2">Bethesda Softworks</div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- 2. Sayfa -->
+                        <div class="carousel-item mt-2">
+                            <div class="row g-3 justify-content-center">
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                                <div class="game-pass-container p-0 pb-4">
+                                    <div class="game-pass-img-wrapper">
+                                        <img class="game-pass-img" src="img/crime-scene-cleaner.jpg" alt="">
+                                    </div>
+                                    <div class="game-pass-text px-2 pt-1">Crime Scene Cleaner</div>
+                                    <div class="game-pass-publisher px-2">PlayWay S.A.</div>
+                                </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                                <div class="game-pass-container p-0 pb-4">
+                                    <div class="game-pass-img-wrapper">
+                                        <img class="game-pass-img" src="img/call-of-duty-warzone.jpg" alt="">
+                                    </div>
+                                    <div class="game-pass-text px-2 pt-1">Call of Duty: Warzone</div>
+                                    <div class="game-pass-publisher px-2">Activision</div>
+                                </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                                <div class="game-pass-container p-0 pb-4">
+                                    <div class="game-pass-img-wrapper">
+                                        <img class="game-pass-img" src="img/south-of-midnight.jpg" alt="">
+                                    </div>
+                                    <div class="game-pass-text px-2 pt-1">South of Midnight</div>
+                                    <div class="game-pass-publisher px-2">Xbox Game Studios</div>
+                                </div>
+                                </div>                              
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                                <div class="game-pass-container p-0 pb-4">
+                                    <div class="game-pass-img-wrapper">
+                                        <img class="game-pass-img" src="img/atomfall.jpeg" alt="">
+                                    </div>
+                                    <div class="game-pass-text px-2 pt-1">Atomfall</div>
+                                    <div class="game-pass-publisher px-2">Rebellion</div>
+                                </div>
+                                </div>                              
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                                <div class="game-pass-container p-0 pb-4">
+                                    <div class="game-pass-img-wrapper">
+                                        <img class="game-pass-img" src="img/the-finals.jpg" alt="">
+                                    </div>
+                                    <div class="game-pass-text px-2 pt-1">The Finals</div>
+                                    <div class="game-pass-publisher px-2">Embark Studios AB</div>
+                                </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                                <div class="game-pass-container p-0 pb-4">
+                                    <div class="game-pass-img-wrapper">
+                                        <img class="game-pass-img" src="img/borderlands-3.jpeg" alt="">
+                                    </div>
+                                    <div class="game-pass-text px-2 pt-1">Borderlands 3</div>
+                                    <div class="game-pass-publisher px-2">2K</div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#gamePassCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#gamePassCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Geri git butonuna tıklandığında bir önceki sayfaya git.
+        document.getElementById("goBackBtn").addEventListener("click", function() {
+            window.history.back();
+        });
+    </script> 
+    <script>
+        // İkon yönünü değiştir.
+        const toggleBtn = document.querySelector('.toggle-carousel-btn');
+        const toggleIcon = toggleBtn.querySelector('.toggle-icon');
+        const collapseElement = document.getElementById('gamePassSection');
+
+        collapseElement.addEventListener('show.bs.collapse', () => {
+            toggleIcon.classList.remove('rotate');
+        });
+
+        collapseElement.addEventListener('hide.bs.collapse', () => {
+            toggleIcon.classList.add('rotate');
+        });
+    </script>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
