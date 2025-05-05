@@ -6,6 +6,13 @@
     --light-secondary: #2a313c;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: var(--light-secondary);
+}
+
 body {
     font-family: "Raleway", sans-serif;
 }
@@ -217,18 +224,44 @@ a {
     font-weight: bold;
 }
 
-@media (max-width: 1300px) {
-    .current-picture-name,
-    .nav-text,
-    .download-text,
-    .profile-name,
-    .profile-level {
-        display: none;
+.hamburger-btn {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    z-index: 1100;
+    background-color: var(--primary);
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 1199px) {
+    .hamburger-btn {
+        display: block;
+        opacity: 0.7;
     }
 
-    .dropdown-toggle {
-        width: 100%;
-        border: none;
+    .left-bar {
+        position: fixed;
+        left: -100%;
+        width: 250px;
+        z-index: 1000;
+        transition: left 0.3s ease;
+    }
+
+    .left-bar.active {
+        left: 0;
+    }
+
+    .download-text {
+        display: none !important;
+    }
+
+    .download-icon {
+        opacity: 0.5;
     }
 }
 
