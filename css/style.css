@@ -403,6 +403,7 @@ a {
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
+    will-change: transform; /* Resim yaklaşınca veya uzaklaşınca bulanıklaşmayı engellemek için. */
 }
 
 .game-pass-container:hover .game-pass-img {
