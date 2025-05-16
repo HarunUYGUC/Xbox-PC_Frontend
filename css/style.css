@@ -402,6 +402,11 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.game-pass-container:hover .game-pass-img {
+     transform: scale(1.1);
 }
 
 .game-pass-text {
