@@ -25,6 +25,53 @@ a {
     height: 100vh
 }
 
+@media (max-width: 1200px) {
+    .left-bar {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 220px;
+        height: 100vh;
+        background-color: var(--secondary);
+        padding: 10px;
+        transition: left 0.3s ease-in-out;
+        z-index: 1000;
+    }
+
+    .left-bar.open {
+        left: 0;
+    }
+
+    .sidebar-toggle {
+        position: fixed;
+        top: 40px;
+        left: 10px;
+        z-index: 1100;
+        background-color: var(--primary);
+        color: white;
+        padding: 7px 9px;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+
+    /* Arka plan karartması (sidebar açıkken) */
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.4);
+        z-index: 900;
+        display: none;
+    }
+
+    .overlay.active {
+        display: block;
+    }
+}
+
 .profile-text:hover {
     background-color: var(--primary);
     border-radius: 5px;
@@ -226,24 +273,12 @@ a {
 }
 
 @media (max-width: 1300px) {
-    .current-picture-name,
-    .nav-text,
-    .download-text,
-    .profile-name,
-    .profile-level {
-        display: none;
-    }
-
     .dropdown-toggle {
         width: 100%;
-        border: none;
     }
 }
 
 .download-content {
-    position: fixed;
-    bottom: 0;
-    left: 0;
     padding: 10px 20px;
 }
 
